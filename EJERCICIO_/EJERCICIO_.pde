@@ -26,7 +26,7 @@ void setup() {
 }
 
 void draw() {
-  background(0); // Fondo negro
+  background(255); // Fondo negro
 
   for (int i = 0; i < numShapes; i++) {
     fill(colors[i]);
